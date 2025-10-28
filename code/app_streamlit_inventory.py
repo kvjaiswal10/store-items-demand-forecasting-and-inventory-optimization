@@ -174,7 +174,7 @@ def simulate_expiry_eoq(subset_df,
 st.sidebar.title("What-if Inventory Dashboard")
 st.sidebar.markdown("Upload `forecast.csv` or use the project's file path.")
 
-default_path = "../data/forecast.csv"  
+default_path = "data/forecast.csv"  
 uploaded_file = st.sidebar.file_uploader("Upload forecast.csv (optional)", type=["csv"])
 
 if uploaded_file is None:
